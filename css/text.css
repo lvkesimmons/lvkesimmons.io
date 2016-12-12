@@ -226,6 +226,12 @@ img {
     margin-top: 1%;
     z-index: 0;
 }
+#pageheader3 {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    margin-top: -5%;
+    z-index: 0;
+}
 #navititleimg {
     position: relative;
     z-index: -100;
@@ -329,7 +335,8 @@ hr#trihang1hr {
     background-color: #f2f2f2;
 }
 #skialayoutimg {
-    margin-top: -30px;
+    width: 90%;
+    margin-left: 5%;
 }
 #navisolution {
     background-color: black;
@@ -455,4 +462,9 @@ hr#trihang1hr {
 #trihangsketchesimg {
     width: 90%;
     margin-left: 5%;
+}
+#productpageimg {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
