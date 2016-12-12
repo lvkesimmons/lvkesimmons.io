@@ -428,6 +428,10 @@ hr#trihang1hr {
     height: 610px;
     overflow: hidden;
 }
+#prototypesimg {
+    width: 65%;
+    margin-left: 20%;
+}
 #thirds {
     float: left;
     width: 33%;
@@ -446,4 +450,11 @@ hr#trihang1hr {
     text-align: center;
     font-family: Voltaire;
     font-size: 40px;
+}
+#introimg {
+    width: 100%;
+}
+#trihangsketchesimg {
+    width: 90%;
+    margin-left: 5%;
 }
