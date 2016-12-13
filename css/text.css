@@ -230,7 +230,7 @@ img {
 #pageheader3 {
     margin-left: 16.5%;
     margin-right: 16.5%;
-    margin-top: -5%;
+    /*margin-top: 2.5%;*/
     z-index: 0;
 }
 #navititleimg {
@@ -425,9 +425,11 @@ hr#trihang1hr {
     margin-bottom: 5%;
 }
 #technicaldrawingimg {
-    width: 75%;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #videocrop {
     width: 100%;
@@ -467,10 +469,43 @@ hr#trihang1hr {
 #productpageimg {
     width: 50%;
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 4%;
+    padding-bottom: 50px;
     -webkit-transition: width .5s, height .5s;
     transition: width .5s, height .5s;
 }
 #productpageimg:hover {
     width: 51%;
+    cursor: pointer;
+}
+#topbtn {
+    font-family: Economica;
+    font-size: 16px;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 48%;
+}
+#topbtn:hover {
+    font-family: Economica;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#topbtn1 {
+    font-family: Economica;
+    font-size: 16px;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 48%;
+}
+#topbtn1:hover {
+    font-family: Economica;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
