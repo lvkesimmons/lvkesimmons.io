@@ -59,12 +59,13 @@ img {
     margin-bottom: .5%;
 }
 #luke:hover {
-    color: white;
+    /*color: white;*/
     text-decoration: none;
 }
 #lukew:hover {
-    color: black;
+    /*color: black;*/
     text-decoration: none;
+    cursor: default;
 }
 #resumebtn {
     font-family: Voltaire;
@@ -467,4 +468,9 @@ hr#trihang1hr {
     width: 50%;
     margin-left: 25%;
     margin-top: 5%;
+    -webkit-transition: width .5s, height .5s;
+    transition: width .5s, height .5s;
+}
+#productpageimg:hover {
+    width: 51%;
 }
