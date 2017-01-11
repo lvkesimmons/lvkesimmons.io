@@ -15,19 +15,19 @@ $('#fullpage').fullpage({
     easingcss3: 'ease',
     keyboardScrolling: true,
     touchSensitivity: 25,
-    scrollOverflow: false,
+    scrollOverflow: true,
     scrollBar: false,
 })
 
-var vid=document.getElementById('naviexplodedview');
-    vid.addEventListener("ended", hideVideo, false);
+// var vid=document.getElementById('naviexplodedview');
+//     vid.addEventListener("ended", hideVideo, false);
 
-    function hideVideo() {
-        var vid=document.getElementById('naviexplodedview');
-        var other=document.getElementById('exploded');
-        vid.removeEventListener("ended", hideVideo, false);
-        vid.style.display='none';
-        other.style.display='block';
-    }
+//     function hideVideo() {
+//         var vid=document.getElementById('naviexplodedview');
+//         var other=document.getElementById('exploded');
+//         vid.removeEventListener("ended", hideVideo, false);
+//         vid.style.display='none';
+//         other.style.display='block';
+//     }
 
 });
