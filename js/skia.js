@@ -14,8 +14,8 @@ $('#fullpage').fullpage({
     easing: 'easeInOutCubic',
     easingcss3: 'ease',
     keyboardScrolling: true,
-    touchSensitivity: 75,
-    scrollOverflow: false,
+    touchSensitivity: 25,
+    scrollOverflow: true,
     scrollBar: false,
 })
 });
