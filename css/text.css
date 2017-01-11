@@ -26,6 +26,9 @@ img {
     border-bottom: solid;
     border-bottom-color: white;
     border-bottom-width: .5px;
+    /*height: 9%;*/
+    /*top: 0px;*/
+    /*position: fixed;*/
 }
 #whitenav {
     background-color: white;
@@ -259,11 +262,12 @@ img {
 }
 #navititleimg {
     position: relative;
-    z-index: -100;
+    /*z-index: -100;*/
 }
 #navititle {
     width: 100%;
     overflow: hidden;
+    background-color: black
 }
 #pageheader1 {
     position: absolute;
