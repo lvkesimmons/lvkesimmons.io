@@ -475,10 +475,10 @@ hr#trihang1hr {
 }
 #projectimg {
     width: 100%;
-    -webkit-transition: width .5s, height .5s, margin .5s;
-    -moz-transition: width .5s, height .5s, margin .5s;
-    -ms-transition: width .5s, height .5s, margin .5s;
-    transition: width .5s, height .5s, margin .5s;
+    -webkit-transition: width .25s, height .25s, margin .25s;
+    -moz-transition: width .25s, height .25s, margin .25s;
+    -ms-transition: width .25s, height .25s, margin .25s;
+    transition: width .25s, height .25s, margin .25s;
 }
 #projectimg:hover {
     width: 101%;
