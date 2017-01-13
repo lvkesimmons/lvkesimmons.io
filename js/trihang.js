@@ -1,10 +1,10 @@
 $(document).ready(function(){
     
 $('#fullpage').fullpage({
-    anchors:['triHangTitle', 'triHangIntro', 'triHangSketching', 'triHangScaleModels', 'triHangFullModels', 'triHangProcess', 'triHangPrototype', 'triHangOrthographicDrawing'],
+    anchors:['triHangTitle', 'triHangIntro', 'triHangSketching', 'triHangScaleModels', 'triHangFullModels', 'triHangProcess', 'triHangPrototypes', 'triHangOrthographicDrawing'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['TRI-HANG', 'INTRO', 'SKETCHING', 'SCALE MODELS', 'FULL SCALE MODELS', 'PROCESS', 'PROTOTYPE', 'ORTHOGRAPHIC DRAWING'],
+    navigationTooltips: ['TRI-HANG', 'INTRO', 'SKETCHING', 'SCALE MODELS', 'FULL SCALE MODELS', 'PROCESS', 'PROTOTYPES', 'ORTHOGRAPHIC DRAWING'],
     showActiveTooltip: false,
     css3: true,
     scrollingSpeed: 1000,
