@@ -583,28 +583,30 @@ hr#trihang1hr {
 }
 #left {
     width: 40%;
-    margin-right: 65%
+    margin-top: 15%;
+    display: inline-block;
 }
 #right {
     float: right;
     width: 15%;
-    margin-top: -275px;
+    margin-top: 12.5%;
+    display: inline-block;
 }
 #aboutmecopy {
     font-family: Economica;
     font-size: 24px;
     color: black;
     text-align: center;
-    padding-top: 250px;
     padding-left: 50px;
     padding-right: 25px;
 }
 #me {
     width: 50%;
-    margin-left: 35%;
+    margin-left: -5%;
     position: fixed;
     bottom: 0;
     z-index: -100;
+    display: inline-block;
 }
 #icon {
     width: 50px;
