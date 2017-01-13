@@ -356,10 +356,13 @@ hr#trihang1hr {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-} 
+}
+#skiacamera {
+    background: linear-gradient(#496D9E, #D7DAE1);
+}
 #cameraimg {
     position: relative;
-    z-index: -100;
+    z-index: 0;
 }
 #skialayout {
     background-color: #f2f2f2;
