@@ -58,13 +58,14 @@ img {
     margin-bottom: .5%;
 }
 #luke:hover {
-    /*color: white;*/
+    color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 #lukew:hover {
-    /*color: black;*/
+    color: black;
     text-decoration: none;
-    cursor: default;
+    cursor: pointer;
 }
 #resumebtn {
     font-family: Voltaire;
