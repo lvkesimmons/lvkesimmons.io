@@ -654,6 +654,15 @@ hr#trihang1hr {
    margin-top: 2.5%;
    margin-bottom: 2.5%;
    cursor: pointer;
+   -webkit-transition: width .5s, height .5s;
+    transition: width .5s, height .5s;
+    -moz-transition: width .5s, height .5s, margin .5s;
+    -ms-transition: width .5s, height .5s, margin .5s;
+    transition: width .5s, height .5s, margin .5s;
+}
+#coverimg:hover {
+    width: 76%;
+    margin-left: 12%;
 }
 #name {
     width: 45%;
