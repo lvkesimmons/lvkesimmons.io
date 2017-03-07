@@ -1,6 +1,6 @@
 $(document).ready(function(){
         
-        $("#arrow").click(function(){
-                $(window).scrollTo(document.getElementById('whitenav'), 450);
+$("#arrow").click(function(){
+                $(window).scrollTo(document.getElementById('jump'), 350);
         });
 });    
