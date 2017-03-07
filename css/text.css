@@ -39,6 +39,7 @@ img {
 }
 #whitenav1 {
     background-color: white;
+    /*opacity: .5;*/
     border-bottom: solid;
     border-bottom-color: #C0C0C0;
     border-bottom-width: .5px;
@@ -610,9 +611,10 @@ hr#trihang1hr {
     font-family: Economica;
     font-size: 20px;
     color: black;
-    text-align: center;
+    text-align: left;
     padding-left: 50px;
     padding-right: 25px;
+    margin-top: -20%;
 }
 #me {
     width: 50%;
@@ -725,5 +727,12 @@ hr#trihang1hr {
     width: 5%;
     margin-left: 47.5%;
     margin-bottom: 2.5%;
+    cursor: pointer;
+}
+#home {
+    width: 3%;
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 1%;
     cursor: pointer;
 }
