@@ -748,8 +748,11 @@ and (max-device-width : 480px) {
         font-family: Economica;
         color: black;
         text-align: left;
-        margin-bottom: -5px;
+        margin-bottom: -25px;
         font-size: 30px;
         margin-top: 12%;
+    }
+    #name {
+        padding-bottom: 15%;
     }
 }
