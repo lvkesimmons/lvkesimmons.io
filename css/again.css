@@ -939,6 +939,9 @@ and (max-device-width : 480px) {
     z-index: 10002;
     position: relative;
 }
+#origami {
+    background-color: #353535;
+    }
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
