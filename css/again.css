@@ -127,28 +127,28 @@ and (max-device-width : 480px) {
     height: 50px;
     width: 100%;
     z-index: 100000;
-}
-#whitenav {
-    background-color: white;
-    border-bottom: solid;
-    border-bottom-color: #C0C0C0;
-    border-bottom-width: .5px;
-    position: fixed;
-    z-index: 100001;
-    height: 50px;
-    width: 100%;
-}
-#copy5 {
-    margin-top: -9%;
-    font-family: Economica;
-    font-size: 24px;
-    margin-bottom: 4%;
-    padding-bottom: 8%;
-    color: white;
-    line-height: 30px;
-    z-index: 56;
-    position: relative;
-}
+    }
+    #whitenav {
+        background-color: white;
+        border-bottom: solid;
+        border-bottom-color: #C0C0C0;
+        border-bottom-width: .5px;
+        position: fixed;
+        z-index: 100001;
+        height: 50px;
+        width: 100%;
+    }
+    #copy5 {
+        margin-top: -9%;
+        font-family: Economica;
+        font-size: 24px;
+        margin-bottom: 4%;
+        padding-bottom: 8%;
+        color: white;
+        line-height: 30px;
+        z-index: 56;
+        position: relative;
+    }
     #copy10 {
         margin-top: 2%;
         font-family: Economica;
@@ -438,20 +438,6 @@ and (max-device-width : 480px) {
         z-index: 10002;
         position: relative;
     }
-    #skiasolution:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    margin-bottom: 10%;
-    background: #F2F2F2;
-    -webkit-transform: skewY(11deg);
-    -moz-transform: skewY(11deg);
-    -ms-transform: skewY(11deg);
-    -o-transform: skewY(11deg);
-    transform: skewY(11deg);
-    -webkit-backface-visibility: hidden;
-}
 }
 #copy6 {
         margin-top: -1%;
@@ -549,29 +535,32 @@ and (max-device-width : 480px) {
     transform: skewY(-11deg);
     -webkit-backface-visibility: hidden;
 }
-#navisolution:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    margin-top: -20%;
-    background: #030339;
-    -webkit-transform: skewY(-11deg);
-    -moz-transform: skewY(-11deg);
-    -ms-transform: skewY(-11deg);
-    -o-transform: skewY(-11deg);
-    transform: skewY(-11deg);
-    -webkit-backface-visibility: hidden;
-}
+    #navisolution:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        margin-top: -20%;
+        background: #030339;
+        -webkit-transform: skewY(-11deg);
+        -moz-transform: skewY(-11deg);
+        -ms-transform: skewY(-11deg);
+        -o-transform: skewY(-11deg);
+        transform: skewY(-11deg);
+        -webkit-backface-visibility: hidden;
+    }
     #sketch {
         background-color: #F2F2F2;
         margin-bottom: 7.5%;
         padding-bottom: 5%;
     }
-    #origami {
-        background-color: #353535;
-        margin-bottom: 7.5%;
-    }
+    /*#skiaorigami {*/
+    /*    width: 101%;*/
+    /*    margin-top: -10%;*/
+    /*    margin-bottom: 2%;*/
+    /*    z-index: 8;*/
+    /*    position: relative;*/
+    /*}*/
 }
 
 #naviiso {
@@ -797,18 +786,18 @@ and (max-device-width : 480px) {
     -webkit-backface-visibility: hidden;
     }
     #skiasolution:after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 1000px;
-        margin-top: -5px;
-        background: #F2F2F2;
-        -webkit-transform: skewY(11deg);
-        -moz-transform: skewY(11deg);
-        -ms-transform: skewY(11deg);
-        -o-transform: skewY(11deg);
-        transform: skewY(11deg);
-        -webkit-backface-visibility: hidden;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin-top: -18%;
+    background: #F2F2F2;
+    -webkit-transform: skewY(11deg);
+    -moz-transform: skewY(11deg);
+    -ms-transform: skewY(11deg);
+    -o-transform: skewY(11deg);
+    transform: skewY(11deg);
+    -webkit-backface-visibility: hidden;
     }
     #skiaproblem {
         width: 100%;
@@ -821,14 +810,10 @@ and (max-device-width : 480px) {
         margin-left: 16.5%;
         margin-right: 16.5%;
         width: 67%;
-        margin-top: 5%;
+        margin-top: 15%;
         z-index: 105;
         position: relative;
     }
-    #skiaapp {
-        width: 100%;
-        /*margin-top: -10%;*/
-}
 }
 
 #skiaiso {
@@ -953,4 +938,26 @@ and (max-device-width : 480px) {
     line-height: 30px;
     z-index: 10002;
     position: relative;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #skiasolution:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        margin-top: -18%;
+        background: white;
+        -webkit-transform: skewY(11deg);
+            -moz-transform: skewY(11deg);
+        -ms-transform: skewY(11deg);
+        -o-transform: skewY(11deg);
+        transform: skewY(11deg);
+        -webkit-backface-visibility: hidden;
+    }
+    #origami {
+        margin-top: -5%;
+        background-color: #353535;
+    }
 }
