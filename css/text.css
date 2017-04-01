@@ -741,3 +741,15 @@ hr#trihang1hr {
     margin-top: 1%;
     cursor: pointer;
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #hello {
+        font-family: Economica;
+        color: black;
+        text-align: left;
+        margin-bottom: -5px;
+        font-size: 30px;
+        margin-top: 12%;
+    }
+}
