@@ -753,9 +753,6 @@ and (max-device-width : 480px) {
         margin-top: 12%;
     }
     #name {
-        padding-bottom: 25%;
-    }
-    #introcopy {
-        margin-bottom: -25%;
+        padding-bottom: 20%;
     }
 }
