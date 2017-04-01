@@ -36,6 +36,143 @@ html, body {
     width: 100%;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #luke {
+        font-family: Voltaire;
+        font-size: 20px;
+        text-align: left;
+        color: #C0C0C0;
+        display: inline-block;
+        padding-left: 5%;
+        margin-top: 5%;
+        margin-bottom: .5%;
+        margin-left: -5%;
+    }
+    #lukew {
+        font-family: Voltaire;
+        font-size: 20px;
+        text-align: left;
+        color: gray;
+        display: inline-block;
+        padding-left: 5%;
+        margin-top: 5%;
+        margin-bottom: .5%;
+        margin-left: -5%;
+    }
+    #work {
+        font-family: Voltaire;
+        font-size: 12px;
+        float: right;
+        color: gray;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: .5%;
+    }
+    #workw {
+        font-family: Voltaire;
+        font-size: 12px;
+        float: right;
+        color: #C0C0C0;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: .5%;
+    }
+    #resumebtn {
+        font-family: Voltaire;
+        font-size: 12px;
+        float: right;
+        color: gray;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: .5%;
+        /*padding-right: 2.5%;*/
+    }
+    #resumebtnw {
+        font-family: Voltaire;
+        font-size: 12px;
+        float: right;
+        color: #C0C0C0;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: .5%;
+        /*padding-right: 2.5%;*/
+    }
+    #aboutme {
+        font-family: Voltaire;
+        font-size: 12px;
+        float: right;
+        color: gray;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: .5%;
+    }
+    #aboutmew {
+        font-family: Voltaire;
+        font-size: 12px;
+        float: right;
+        color: #C0C0C0;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: .5%;
+        
+    }
+    #nav {
+    background-color: black;
+    border-bottom: solid;
+    border-bottom-color: #C0C0C0;
+    border-bottom-width: .5px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 100000;
+}
+#whitenav {
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-color: #C0C0C0;
+    border-bottom-width: .5px;
+    position: fixed;
+    z-index: 100001;
+    height: 50px;
+    width: 100%;
+}
+#copy5 {
+    margin-top: -9%;
+    font-family: Economica;
+    font-size: 24px;
+    margin-bottom: 4%;
+    padding-bottom: 8%;
+    color: white;
+    line-height: 30px;
+    z-index: 56;
+    position: relative;
+}
+    #copy10 {
+        margin-top: 2%;
+        font-family: Economica;
+        font-size: 24px;
+        margin-bottom: 4%;
+        color: black;
+        line-height: 30px;
+        z-index: 10002;
+        position: relative;
+    }
+    #coloroptions {
+        padding-bottom: 5%
+    }
+}
+#copy10 {
+    margin-top: -15px;
+    font-family: Economica;
+    font-size: 24px;
+    margin-bottom: 4%;
+    color: black;
+    line-height: 30px;
+    z-index: 10002;
+    position: relative;
+    }
 #luke {
     font-family: Voltaire;
     font-size: 33px;
@@ -277,6 +414,56 @@ hr#skiahr {
     position: relative;
     z-index: 1;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #iss {
+        width: 100%;
+        padding-top: 12%;
+    }
+    #sub {
+        font-family: Economica;
+        font-size: 28px;
+        color: #575757;
+        padding-bottom: 5%;
+    }
+    #copy6 {
+        margin-top: 10%;
+        font-family: Economica;
+        font-size: 24px;
+        margin-bottom: 4%;
+        color: black;
+        line-height: 30px;
+        z-index: 10002;
+        position: relative;
+    }
+    #skiasolution:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+    background: #F2F2F2;
+    -webkit-transform: skewY(11deg);
+    -moz-transform: skewY(11deg);
+    -ms-transform: skewY(11deg);
+    -o-transform: skewY(11deg);
+    transform: skewY(11deg);
+    -webkit-backface-visibility: hidden;
+}
+}
+#copy6 {
+        margin-top: -1%;
+        font-family: Economica;
+        font-size: 24px;
+        margin-bottom: 4%;
+        color: black;
+        line-height: 30px;
+        z-index: 10002;
+        position: relative;
+    }
+
 #navihero {
     background-color: #060d19;
 }
@@ -376,6 +563,15 @@ and (max-device-width : 480px) {
     transform: skewY(-11deg);
     -webkit-backface-visibility: hidden;
 }
+    #sketch {
+        background-color: #F2F2F2;
+        margin-bottom: 7.5%;
+        padding-bottom: 5%;
+    }
+    #origami {
+        background-color: #353535;
+        margin-bottom: 7.5%;
+    }
 }
 
 #naviiso {
@@ -389,6 +585,7 @@ and (max-device-width : 480px) {
     width: 15%;
     margin-right: 8.5%;
     margin-top: -7%;
+    margin-left: 5%;
     z-index: 105;
     position: relative;
 }
@@ -565,7 +762,7 @@ and (max-device-width : 480px) {
     position: absolute;
     width: 100%;
     height: 50%;
-    margin-top: -19%;
+    margin-top: -10%;
     background: #F2F2F2;
     -webkit-transform: skewY(11deg);
     -moz-transform: skewY(11deg);
@@ -590,27 +787,39 @@ and (max-device-width : 480px) {
     -o-transform: skewY(11deg);
     transform: skewY(11deg);
     -webkit-backface-visibility: hidden;
-}
-#skiasolution:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    margin-top: -20%;
-    background: #F2F2F2;
-    -webkit-transform: skewY(11deg);
-    -moz-transform: skewY(11deg);
-    -ms-transform: skewY(11deg);
-    -o-transform: skewY(11deg);
-    transform: skewY(11deg);
-    -webkit-backface-visibility: hidden;
-}
-#skiaproblem {
-    width: 100%;
-    margin-bottom: 5%;
-    margin-top: -1.5%;
-    z-index: 10001;
-    position: relative;
+    }
+    #skiasolution:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1000px;
+        margin-top: -5px;
+        background: #F2F2F2;
+        -webkit-transform: skewY(11deg);
+        -moz-transform: skewY(11deg);
+        -ms-transform: skewY(11deg);
+        -o-transform: skewY(11deg);
+        transform: skewY(11deg);
+        -webkit-backface-visibility: hidden;
+    }
+    #skiaproblem {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-top: -1.5%;
+        z-index: 10001;
+        position: relative;
+    }
+    #margins3 {
+        margin-left: 16.5%;
+        margin-right: 16.5%;
+        width: 67%;
+        margin-top: 5%;
+        z-index: 105;
+        position: relative;
+    }
+    #skiaapp {
+        width: 100%;
+        /*margin-top: -10%;*/
 }
 }
 
@@ -648,9 +857,15 @@ and (max-device-width : 480px) {
     width: 67%;
     margin-left: 16.5%;
     margin-right: 16.5%;
-    margin-top: 7.5%;
+    margin-top: 3%;
     z-index: 107;
     position: relative;
+}
+#skiahelmet {
+    width: 100%;
+    z-index: 108;
+    position: relative;
+    margin-top: 4%;
 }
 #skiaapp {
     width: 100%;
@@ -662,6 +877,10 @@ and (max-device-width : 480px) {
     margin-bottom: 2%;
     z-index: 7;
     position: relative;
+}
+#sketch {
+    background-color: #F2F2F2;
+    margin-top: 2%;
 }
 #copy4 {
     margin-top: -8.5%;
@@ -681,7 +900,7 @@ and (max-device-width : 480px) {
     position: relative;
 }
 #copy5 {
-    margin-top: -11%;
+    margin-top: -9%;
     font-family: Economica;
     font-size: 24px;
     margin-bottom: 4%;
@@ -693,12 +912,14 @@ and (max-device-width : 480px) {
 #skiasketches {
     width: 100%;
     margin-top: -1%;
+    margin-bottom: -1%;
 }
 #skiamodeling {
     width: 100%;
 }
 #skiagrasshopper {
     width: 100%;
+    margin-bottom: -1%;
 }
 #skiaproductpage {
     width: 50%;
