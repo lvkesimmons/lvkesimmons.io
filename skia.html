@@ -2,121 +2,105 @@
 <html lang="en">
     <head>
         <title>Luke Simmons / SKIA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/text.css" type="text/css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/vendors/scrolloverflow.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/vendors/jquery.easings.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
         
         <script type="text/javascript" src="js/skia.js"></script>
     </head>
     <body>
-        <div id="fullpage">
-            <section id="skiatitle" class="section" data-anchor="skiaTitle1">
-                <div id="whitenav">
-                    <a href="" id="lukew">LUKE SIMMONS</a>
-                    <a href="resume.html" id="resumebtnw">RESUME</a>
-                    <a href="index.html" id="workw">WORK</a>
-                    <!--<div id="dropdownw">-->
-                    <!--    <a href="navi.html">NAVI</a>-->
-                    <!--    <a href="skia.html">SKIA</a>-->
-                    <!--    <a href="">TRI-HANG</a>-->
-                    <!--</div>-->
-                </div>
-                <img id="skiatitleimg" src="images/skia/sage.jpg"></img>
-                <div id="pageheader1">
-                    <p id="title2">SKIA</p>
-                    <hr id="skiahr">
-                    <p id="copyb">skier protection system consisting of an action camera and an app</p>
-                    <p id="length">14 weeks</p>
-                </div>
-            </section>
-            <section id="skiaintro" class="section" data-anchor="skiaIntro1">
-                <img src="images/skia/intro.jpg" id="skiaintroimg"></img>
-            </section>
-            <section id="skiaproblem" class="section" data-anchor="skiaProblem1">
-                <img id="skiabg" src="images/skia/background.jpg"></img>
-                <div id="pageheader1">
-                    <p id="title1w">SNOW IMMERSION SUFFOCATION STATISTICS IN THE U.S.</p>
-                    <p id="dates">2001-2015</p>
-                    <img id="stats" src="images/skia/stats-01.png"></img>
-                    <p id="copy1ww">Skiing is a popular sport around the world, but it can also be very dangerous.  If a skier goes down, it is often hard to pinpoint their exact location. It is even harder if there has been an avalanche. Experienced skiers often go down the hardest: trying more difficult runs and doing bigger tricks can result in worse injuries.</p>
-                    <p id="copysm">DATA FROM THE NORTHWESTERN AVALANCHE INSTITUTE</p>
-                </div>
-            </section>
-            <section id="skiadirection1" class="section" data-anchor="skiaDirection1">
-                <div id="pageheader">
-                    <p id="title">DIRECTION 1</p>
-                    <hr id="skiahr">
-                    <p id="copy">Due to the sheer number of trees on the mountain, my first idea to place rings blocking where tree wells form was scrapped.</p>
-                </div>
-                <img id="skiadirection1img" src="images/skia/direction1.jpg"></img>
-            </section>
-            <section id="skiasketching" class="section" data-anchor="skiaSketching1">
-                <div id="pageheader">
-                    <p id="title">SKETCHING</p>
-                    <hr id="skiahr">
-                    <p id="copy">Through ideation an aerodynamic camera and silicon case were designed.</p>
-                </div>
-                <img id="skiasketchingimg" src="images/skia/sketches2.jpg"></img>
-            </section>
-            <section id="skiamodeling" class="section" data-anchor="skiaModeling1">
-                <div id="pageheader2">
-                    <p id="title">MODELING</p>
-                    <hr id="skiahr">
-                    <p id="copy">Iterating in 3D, both physically and digitally, helped establish the form of the camera.</p>
-                </div>
-                <img id="physicalmodel" src="images/skia/physical.jpg"></img>
-                <img id="digitalmodel" src="images/skia/digital.jpg"></img>
-            </section>
-            <section id="skiacamera" class="section" data-anchor="skiaCamera1">
-                <img id="cameraimg" src="images/skia/camera1.jpg"></img>
-                <div id="pageheader1">
-                    <p id="titlew1">CAMERA</p>
-                    <hr id="skiahr">
-                    <p id="copyw">By using the equipped gyroscope and accelerometer the camera tracks the users G force, watching for crashes or falls.</p>
-                </div>
-            </section>
-            <section id="skiacolors" class="section" data-anchor="skiaColors1">
-                <img id="skiacolorsimg" src="images/skia/colors5.jpg"></img>
-                <div id="pageheader1">
-                    <p id="titleb1">COLORS</p>
-                    <hr id="skiahr">
-                    <p id="copy">The camera body comes in either white or black and the silicon case comes in three colors.</p>
-                </div>
-            </section>
-            <section class="section" data-anchor="skiaApp1">
-                <img id="appbg" src="images/skia/appbg1.jpg"></img>
-                <div id="pageheader1">
-                    <p id="titleb1">APP</p>
-                    <hr id="skiahr">
-                    <p id="copy">The app is designed as a ski companion: it tracks motion data and establishes a social network on the mountain.</p>
-                </div>
-            </section>    
-            <section id="skialayout" class="section" data-anchor="skiaAppLayout1">
-                <div id="pageheader">
-                    <p id="title">LAYOUT</p>
-                    <hr id="skiahr">
-                    <p id="copy">Users are able to view the most important information with only one tap or swipe.</p>
-                </div>
-                <img id="skialayoutimg" src="images/skia/layout1.jpg"></img>
-                <p id="copy1"></p>
-            </section>
-            <section id="skiaproductpage" class="section" data-anchor="skiaProductPage1">
-                <div id="pageheader3">
-                    <p id="title">PRODUCT PAGE</p>
-                    <hr id="skiahr">
-                    <p id="copy">Check out the Skia product page to learn more about the app.</p>
-                </div>
-                <a href="https://lsimmons3.github.io/skia/" target="_blank"><img id="productpageimg" src="images/skia/skiaproductpage.jpg"></img></a>
-            </section>
+        <div id="whitenav">
+            <a href="http://lvkesimmons.com/" id="lukew">LUKE SIMMONS</a>
+            <a href="resume.html" id="resumebtnw">RESUME</a>
+            <a href="http://lvkesimmons.com/" id="workw">WORK</a>
+            <a href="aboutme.html" id="aboutmew">ABOUT ME</a>
         </div>
+        <div id="skiahero">
+            <img id="mountain" src="images/skia/mountain.jpg"></img>
+            <div id="titleblock">
+                <p id="title2">SKIA</p>
+                <hr id="skiahr">
+                <p id="copyb">skier protection system consisting of an action camera and an app</p>
+                <p id="length">14 weeks</p>
+            </div>
+        </div>
+        <div>
+            <img id="skiagraphic" src="images/skia/skiagraphic.jpg"></img>
+        </div>
+        <div id="problem">
+            <div id="margins">
+                <p id="title">PROBLEM</p>
+                <hr id="skiahr"> 
+                <p id="copy">Skiing is a popular sport around the world, but it can also be very dangerous.</p>
+            </div>
+            <img id="skiaproblem" src="images/skia/skiaproblem.jpg"></img>
+            <div id="margins">
+                <p id="copy">If a skier goes down, it is often hard to pinpoint their exact location. It is even harder if there has been an avalanche. Experienced skiers often go down the hardest: trying more difficult runs and doing bigger tricks can result in worse injuries.</p>
+            </div>
+        </div>
+        
+        <div id="margins2">
+            <p id="title">SOLUTION</p>
+            <hr id="skiahr"> 
+            <p id="copy">SKIA uses an accelerometer and gyroscope to track the skiers G force, watching for crashes or falls.</p>
+        </div>
+        <div id="skiasolution">
+            <img id="skiaiso" src="images/skia/skiaiso.png"></img>
+            <img id="skiafront" src="images/skia/skiafront.png"></img>
+            <img id="skiaside" src="images/skia/skiaside.png"></img>
+            <div id="solutioncopy1">
+                <p id="copy">SKIA is also constantly streaming the cloud where the feed is monitored with image recognition.</p>
+            </div>
+            <img id="coloroptions" src="images/skia/coloroptions.png"></img>
+            <div id="solutioncopy">
+                <p id="copy">Color options let skiers match the camera to the rest of their gear.</p>
+            </div>
+        </div>
+        <div id="margins3">
+            <p id="title">APP</p>
+            <hr id="skiahr"> 
+            <p id="copy">Designed as a ski companion, the app tracks motion data and creates a social network.</p>
+        </div>
+        <img id="skiaapp" src="images/skia/skiaapp.jpg"></img>
+        <img id="skialayout" src="images/skia/sketch.jpg"></img>
+        <div id="margins">
+            <p id="copy4">The most important data is visible within a single tap or swipe.</p>
+        </div>
+        <img id="skiaorigami" src="images/skia/origami.jpg"></img>
+        <div id="margins">
+            <p id="copy5">Users were able to test the prototype of the app to give usability feedback.</p>
+        </div>
+        <div id="margins2">
+            <p id="title">PROCESS</p>
+            <hr id="skiahr"> 
+            <p id="copy">My original concept was to block off the space where tree wells form, but this was deemed impractical due to the sheer number of trees on the mountain.</p>
+        </div>
+        <img id="skiasketches" src="images/skia/skiasketches.jpg"></img>
+        <div id="margins2">
+            <p id="copy">Modeling both physcially and digitally brought out an aerodynamic form.</p>
+        </div>
+        <img id="skiamodeling" src="images/skia/modeling.jpg"></img>
+        <img id="skiagrasshopper" src="images/skia/skiagrasshopper.jpg"></img>
+        <div id="margins">
+            <p id="copy">BONUS: check out the SKIA product page for more info about the app.</p>
+        </div>
+        <a href="https://lsimmons3.github.io/skia/" target="_blank"><img id="skiaproductpage" src="images/skia/skiaproductpage.jpg"></img></a>
+        
+        <img src="images/arrow.png" id="arrow" onclick="function()">
+        <footer>
+            <p id="copyright">Luke Simmons &copy; 2017</p>
+        </footer>
     </body>
 </html>
