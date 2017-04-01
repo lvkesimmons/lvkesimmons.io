@@ -1,0 +1,716 @@
+@font-face{
+    font-family: 'Voltaire', sans-serif;
+    font-family: 'Economica', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#nav {
+    background-color: black;
+    border-bottom: solid;
+    border-bottom-color: #C0C0C0;
+    border-bottom-width: .5px;
+    position: fixed;
+    height: 62px;
+    width: 100%;
+    z-index: 100000;
+}
+#whitenav {
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-color: #C0C0C0;
+    border-bottom-width: .5px;
+    position: fixed;
+    z-index: 100001;
+    height: 62px;
+    width: 100%;
+}
+
+#luke {
+    font-family: Voltaire;
+    font-size: 33px;
+    text-align: left;
+    color: #C0C0C0;
+    display: inline-block;
+    padding-left: 5%;
+    margin-top: .6%;
+    margin-bottom: .5%;
+}
+#lukew {
+    font-family: Voltaire;
+    font-size: 33px;
+    text-align: left;
+    color: gray;
+    display: inline-block;
+    padding-left: 5%;
+    margin-top: .6%;
+    margin-bottom: .5%;
+}
+#luke:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#lukew:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#resumebtn {
+    font-family: Voltaire;
+    font-size: 15px;
+    float: right;
+    color: gray;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+    padding-right: 5%;
+}
+#resumebtn:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#resumebtnw {
+    font-family: Voltaire;
+    font-size: 15px;
+    float: right;
+    color: #C0C0C0;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+    padding-right: 5%;
+}
+#resumebtnw:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#aboutme {
+    font-family: Voltaire;
+    font-size: 15px;
+    float: right;
+    color: gray;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+}
+#aboutme:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#aboutmew {
+    font-family: Voltaire;
+    font-size: 15px;
+    float: right;
+    color: #C0C0C0;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+    cursor: pointer;
+    border: none;
+}
+#aboutmew:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#work {
+    font-family: Voltaire;
+    font-size: 15px;
+    float: right;
+    color: gray;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+}
+#workw {
+    font-family: Voltaire;
+    font-size: 15px;
+    float: right;
+    color: #C0C0C0;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+    cursor: pointer;
+    border: none;
+}
+#work:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#workw:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#title {
+    font-family: Voltaire;
+    font-size: 40px;
+    color: black;
+    margin-bottom: -20px;
+}
+#title1 {
+    font-family: Voltaire;
+    font-size: 80px;
+    background: linear-gradient(90deg, rgb(0, 114, 188), rgb(237, 28, 36));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#title2 {
+    margin-top: -20%;
+    color: #ed1c24;
+    font-family: Voltaire;
+    font-size: 80px;
+}
+#title1w {
+    font-family: Voltaire;
+    font-size: 40px;
+    color: white;
+    margin-top: -57%;
+    text-align: center;
+}
+#titlew1 {
+    font-family: Voltaire;
+    font-size: 40px;
+    color: white;
+    margin-top: -60%;
+    margin-bottom: -20px;
+}
+#titleb1 {
+    font-family: Voltaire;
+    font-size: 40px;
+    color: black;
+    margin-top: -60%;
+    margin-bottom: -20px;
+}
+#length {
+    font-family: Economica;
+    font-size: 30px;
+    color: #929090;
+}
+#lengthw {
+    font-family: Economica;
+    font-size: 30px;
+    color: #F2F2F2;
+}
+#sub {
+    font-family: Economica;
+    font-size: 28px;
+    color: #575757;
+}
+#copy {
+    margin-top: -15px;
+    font-family: Economica;
+    font-size: 24px;
+    margin-bottom: 4%;
+    color: black;
+    line-height: 30px;
+    z-index: 10002;
+    position: relative;
+}
+#copyw {
+    margin-top: -15px;
+    font-family: Economica;
+    font-size: 24px;
+    margin-bottom: 4%;
+    color: white;
+    line-height: 30px;
+}
+#copyw1 {
+    font-family: Economica;
+    font-size: 46px;
+    color: white;
+}
+#copyb {
+    font-family: Economica;
+    font-size: 46px;
+    color: black;
+}
+#copy1 {
+    font-family: Economica;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    line-height: 30px;
+    color: black;
+}
+#copysm {
+    font-family: Economica;
+    font-size: 14px;
+    color: black;
+    float: right;
+    text-align: right;
+    margin-right: -20% !important;
+    margin-top: 4%;
+}
+
+hr#navihr {
+    border: 0;
+    height: 1.5px; 
+    background-image: linear-gradient(to right, rgb(0, 114, 188), rgb(237, 28, 36));
+}
+hr#skiahr {
+    border: 0;
+    height: 1.5px;
+    background-color: #ed1c24;
+}
+
+#iss {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+#navihero {
+    background-color: #060d19;
+}
+#titleblock {
+    position: relative;
+    margin-top: -25%;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+    z-index: 2;
+}
+
+#navigraphic {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+#margins {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+}
+#naviproblem {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: -1.5%;
+    z-index: 10001;
+    position: relative;
+}
+
+#solution {
+    margin-top: 4%;
+}
+
+#navisolution:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: -12%;
+    background: white;
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    -webkit-backface-visibility: hidden;
+}
+#navisolution {
+    background-color: #030339;
+    z-index: -999;
+}
+#navisolution:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: -18%;
+    background: #030339;
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    -webkit-backface-visibility: hidden;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #navisolution:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin-top: -15%;
+    background: white;
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    -webkit-backface-visibility: hidden;
+}
+#navisolution:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin-top: -20%;
+    background: #030339;
+    -webkit-transform: skewY(-11deg);
+    -moz-transform: skewY(-11deg);
+    -ms-transform: skewY(-11deg);
+    -o-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    -webkit-backface-visibility: hidden;
+}
+}
+
+#naviiso {
+    width: 45%;
+    z-index: 103;
+    margin-left: 7.5%;
+    position: relative;
+}
+#naviside {
+    float: right;
+    width: 15%;
+    margin-right: 8.5%;
+    margin-top: -7%;
+    z-index: 105;
+    position: relative;
+}
+#navifront {
+    width: 17%;
+    z-index: 104;
+    float: right;
+    margin-top: 11%;
+    margin-right: 7.5%;
+    position: relative;
+}
+#solutioncopy {
+    padding-top: 5%;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+    z-index: 106;
+    position: relative;
+}
+#visualfeedback {
+    width: 85%;
+    position: relative;
+    z-index: 107;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 10%;
+}
+#explode {
+    width: 85%;
+    position: relative;
+    z-index: 107;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+#margins1 {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+    margin-top: 17.5%;
+}
+#margins3 {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+    margin-top: 25%;
+    z-index: 105;
+    position: relative;
+}
+
+#prototype {
+    width: 67%;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+}
+#fritz {
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    margin-top: 1%;
+}
+#code {
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    margin-top: 4%;
+}
+#testing {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+#elevate {
+    width: 100%;
+    margin-bottom: 2%;
+}
+#margins2 {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+    margin-top: 4%;
+    z-index: 10000;
+    position: relative;
+}
+#models {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#copy2 {
+    margin-top: -15px;
+    font-family: Economica;
+    
+    font-size: 24px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    color: black;
+    line-height: 30px;
+}
+#straps {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+#navisketches {
+    width: 100%;
+}
+
+#arrow {
+    width: 5%;
+    opacity: .5;
+    margin-left: 47.5%;
+}
+#arrow:hover {
+    opacity: 1;
+    width: 5%;
+    margin-left: 47.5%;
+    cursor: pointer;
+}
+#copyright {
+    font-family: Economica;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#mountain {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#skiahero {
+    background-color: #F4F4F4;
+}
+#skiagraphic {
+    width: 100%;
+    margin-top: 7.25%;
+    margin-bottom: 2%;
+}
+#skiaproblem {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: -1.5%;
+    z-index: 10001;
+    position: relative;
+}
+
+
+#skiasolution {
+    background-color: #F2F2F2;
+    z-index: -998;
+}
+#skiasolution:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: -14%;
+    background: white;
+    -webkit-transform: skewY(11deg);
+    -moz-transform: skewY(11deg);
+    -ms-transform: skewY(11deg);
+    -o-transform: skewY(11deg);
+    transform: skewY(11deg);
+    -webkit-backface-visibility: hidden;
+}
+#skiasolution:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: -19%;
+    background: #F2F2F2;
+    -webkit-transform: skewY(11deg);
+    -moz-transform: skewY(11deg);
+    -ms-transform: skewY(11deg);
+    -o-transform: skewY(11deg);
+    transform: skewY(11deg);
+    -webkit-backface-visibility: hidden;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #skiasolution:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin-top: -18%;
+    background: white;
+    -webkit-transform: skewY(11deg);
+    -moz-transform: skewY(11deg);
+    -ms-transform: skewY(11deg);
+    -o-transform: skewY(11deg);
+    transform: skewY(11deg);
+    -webkit-backface-visibility: hidden;
+}
+#skiasolution:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin-top: -20%;
+    background: #F2F2F2;
+    -webkit-transform: skewY(11deg);
+    -moz-transform: skewY(11deg);
+    -ms-transform: skewY(11deg);
+    -o-transform: skewY(11deg);
+    transform: skewY(11deg);
+    -webkit-backface-visibility: hidden;
+}
+#skiaproblem {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: -1.5%;
+    z-index: 10001;
+    position: relative;
+}
+}
+
+#skiaiso {
+    width: 40%;
+    z-index: 103;
+    margin-left: 12%;
+    position: relative;
+}
+#skiafront {
+    float: right;
+    width: 15%;
+    margin-top: 20%;
+    margin-right: 12%;
+    position: relative;
+    z-index: 12;
+}
+#skiaside {
+    width: 15%;
+    float: right;
+    z-index: 11;
+    position: relative;
+    margin-right: -15%;
+    margin-top: 35%;
+}
+#solutioncopy1 {
+    padding-top: 7.5%;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    width: 67%;
+    z-index: 106;
+    position: relative;
+}
+#coloroptions {
+    width: 67%;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    margin-top: 7.5%;
+    z-index: 107;
+    position: relative;
+}
+#skiaapp {
+    width: 100%;
+    margin-top: -10%;
+}
+#skialayout {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    z-index: 7;
+    position: relative;
+}
+#copy4 {
+    margin-top: -8.5%;
+    font-family: Economica;
+    font-size: 24px;
+    margin-bottom: 4%;
+    color: black;
+    line-height: 30px;
+    z-index: 56;
+    position: relative;
+}
+#skiaorigami {
+    width: 101%;
+    margin-bottom: 2%;
+    z-index: 8;
+    position: relative;
+}
+#copy5 {
+    margin-top: -11%;
+    font-family: Economica;
+    font-size: 24px;
+    margin-bottom: 4%;
+    color: white;
+    line-height: 30px;
+    z-index: 56;
+    position: relative;
+}
+#skiasketches {
+    width: 100%;
+    margin-top: -1%;
+}
+#skiamodeling {
+    width: 100%;
+}
+#skiagrasshopper {
+    width: 100%;
+}
+#skiaproductpage {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    -webkit-transition: width .5s, height .5s;
+    transition: width .5s, height .5s;
+    -moz-transition: width .5s, height .5s, margin .5s;
+    -ms-transition: width .5s, height .5s, margin .5s;
+    transition: width .5s, height .5s, margin .5s;
+}
+#skiaproductpage:hover {
+    width: 51%;
+    cursor: pointer;
+    margin-left: 24.5%;
+}
