@@ -1,6 +1,6 @@
 $(document).ready(function(){
         
 $("#arrow").click(function(){
-                $(window).scrollTo(document.getElementById('skiahero'), 500);
+                $(window).scrollTo(document.getElementById('navihero'), 500);
         });
 });
