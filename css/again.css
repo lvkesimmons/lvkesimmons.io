@@ -675,6 +675,7 @@ and (max-device-width : 480px) {
 }
 #skiaorigami {
     width: 101%;
+    margin-top: 1%;
     margin-bottom: 2%;
     z-index: 8;
     position: relative;
