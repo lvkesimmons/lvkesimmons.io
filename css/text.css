@@ -756,6 +756,6 @@ and (max-device-width : 480px) {
         padding-bottom: 25%;
     }
     #introcopy {
-        margin-bottom: -5%;
+        margin-bottom: 5%;
     }
 }
