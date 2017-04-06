@@ -577,7 +577,7 @@ hr#trihang1hr {
     text-align: left;
     margin-bottom: -47px;
     font-size: 30px;
-    margin-top: 12%;
+    margin-top: 15%;
 }
 #introcopy {
     font-family: Economica;
@@ -750,10 +750,11 @@ and (max-device-width : 480px) {
         padding-left: 25px;
         margin-left: 6%;
         margin-right: 6%;
+        margin-bottom: .5%;
     }
     #hello {
         margin-top: 16%;
-        margin-bottom: -1%;
+        margin-bottom: -2%;
         margin-left: 12.5%;
     }
     #name {
