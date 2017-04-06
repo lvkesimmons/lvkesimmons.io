@@ -609,8 +609,8 @@ hr#trihang1hr {
 }
 #right {
     float: right;
-    width: 15%;
-    margin-top: 12.5%;
+    width: 20%;
+    margin-top: 17.5%;
     display: inline-block;
 }
 #aboutmecopy {
@@ -620,7 +620,7 @@ hr#trihang1hr {
     text-align: left;
     padding-left: 12.5%;
     padding-right: 25px;
-    margin-top: -22.5%;
+    margin-top: -12.5%;
 }
 #me {
     width: 50%;
@@ -628,6 +628,7 @@ hr#trihang1hr {
     bottom: 0;
     z-index: -100;
     display: inline-block;
+    margin-left: -5%;
 }
 #icon {
     width: 50px;
@@ -653,17 +654,12 @@ hr#trihang1hr {
     width: 65%;
     margin-left: 17.5%;
     margin-right: 17.5%;
-    margin-top: 5%;
-    /*margin-bottom: 5%;*/
+    margin-top: 7.5%;
     box-shadow:  0px 5px 5px #888888;
 }
 #resumebg {
     background-color: #F2F2F2;
 }
-/*#greybg {*/
-/*    background-color: #F2F2F2;*/
-/*    padding: 2.5%;*/
-/*}*/
 #coverimg {
    width: 75%;
    margin-left: 12.5%;
@@ -746,7 +742,7 @@ hr#trihang1hr {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
     #introcopy {
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 25px;
         margin-left: 6%;
         margin-right: 6%;
@@ -783,5 +779,34 @@ and (max-device-width : 480px) {
     position: fixed;
     height: 50px;
     width: 100%;
-}
+    }
+    #resumebg {
+        padding-bottom: 75%;
+    }
+    #resume {
+        margin-top: 15%;
+        margin-left: 2.5%;
+        width: 95%;
+        margin-right: 2.5%;
+    }
+    #download {
+        margin: auto;
+        margin-left: 40%;
+    }
+    #aboutmecopy {
+        font-size: 14px;
+        margin-left: -5%;
+    }
+    #left {
+        width: 100%;
+        margin-top: 27.5%;
+    }
+    #right {
+        width: 100%;
+        margin-top: -7.5%;
+    }
+    #icon {
+        margin-left: 10%;
+        margin-right: 7.5%;
+    }
 }
