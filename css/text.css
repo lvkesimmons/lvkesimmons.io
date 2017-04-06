@@ -741,131 +741,19 @@ hr#trihang1hr {
     margin-top: 1%;
     cursor: pointer;
 }
-
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-        #luke {
-        font-family: Voltaire;
-        font-size: 20px;
-        text-align: left;
-        color: #C0C0C0;
-        display: inline-block;
-        padding-left: 5%;
-        margin-top: 5%;
-        margin-bottom: .5%;
-        margin-left: -5%;
-    }
-        #lukew {
-        font-family: Voltaire;
-        font-size: 20px;
-        text-align: left;
-        color: gray;
-        display: inline-block;
-        padding-left: 5%;
-        margin-top: 5%;
-        margin-bottom: .5%;
-        margin-left: -5%;
-    }
-        #work {
-        font-family: Voltaire;
-        font-size: 12px;
-        float: right;
-        color: gray;
-        padding: 10px;
-        margin-top: 5%;
-        margin-bottom: .5%;
-    }
-        #workw {
-        font-family: Voltaire;
-        font-size: 12px;
-        float: right;
-        color: #C0C0C0;
-        padding: 10px;
-        margin-top: 5%;
-        margin-bottom: .5%;
-    }
-        #resumebtn {
-        font-family: Voltaire;
-        font-size: 12px;
-        float: right;
-        color: gray;
-        padding: 10px;
-        margin-top: 5%;
-        margin-bottom: .5%;
-        /*padding-right: 2.5%;*/
-    }
-        #resumebtnw {
-        font-family: Voltaire;
-        font-size: 12px;
-        float: right;
-        color: #C0C0C0;
-        padding: 10px;
-        margin-top: 5%;
-        margin-bottom: .5%;
-        /*padding-right: 2.5%;*/
-    }
-        #aboutme {
-        font-family: Voltaire;
-        font-size: 12px;
-        float: right;
-        color: gray;
-        padding: 10px;
-        margin-top: 5%;
-        margin-bottom: .5%;
-    }
-        #aboutmew {
-        font-family: Voltaire;
-        font-size: 12px;
-        float: right;
-        color: #C0C0C0;
-        padding: 10px;
-        margin-top: 5%;
-        margin-bottom: .5%;
-        
-    }
-        #nav {
-    background-color: black;
-    border-bottom: solid;
-    border-bottom-color: #C0C0C0;
-    border-bottom-width: .5px;
-    position: fixed;
-    height: 50px;
-    width: 100%;
-    z-index: 100000;
-    }
-        #whitenav {
-        background-color: white;
-        border-bottom: solid;
-        border-bottom-color: #C0C0C0;
-        border-bottom-width: .5px;
-        position: fixed;
-        z-index: 100001;
-        height: 50px;
-        width: 100%;
-    }
-        #copy5 {
-        margin-top: -9%;
+    #hello {
         font-family: Economica;
-        font-size: 24px;
-        margin-bottom: 4%;
-        padding-bottom: 8%;
-        color: white;
-        line-height: 30px;
-        z-index: 56;
-        position: relative;
-    }
-        #copy10 {
-        margin-top: 2%;
-        font-family: Economica;
-        font-size: 24px;
-        margin-bottom: 4%;
         color: black;
-        line-height: 30px;
-        z-index: 10002;
-        position: relative;
+        text-align: left;
+        margin-bottom: -25px;
+        font-size: 30px;
+        margin-top: 12%;
     }
-        #coloroptions {
-        padding-bottom: 5%
+    #name {
+        padding-bottom: 8%;
+        margin-top: 12%;
     }
 }
