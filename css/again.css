@@ -183,26 +183,32 @@ and (max-device-width : 480px) {
     #aboutmew {
         margin-left: -3%;
         margin-top: 3%;
+        margin-top: 1%;
     }
     #aboutme {
         margin-top: 3%;
         margin-left:  -3%;
+        margin-top: 1%;
     }
     #resumebtn {
         margin-left: -3%;
         margin-top: 3%;
+        margin-top: 1%;
     }
     #resumebtnw {
         margin-left: -3%;
         margin-top: 3%;
+        margin-top: 1%;
     }
     #work {
         margin-left: -3%;
         margin-top: 3%;
+        margin-top: 1%;
     }
     #workw {
         margin-left: -3%;
         margin-top: 3%;
+        margin-top: 1%;
     }
     #luke {
         margin-left: -2%;
