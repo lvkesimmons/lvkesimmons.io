@@ -627,8 +627,8 @@ hr#trihang1hr {
 }
 #right {
     float: right;
-    width: 15%;
-    margin-top: 12.5%;
+    width: 25%;
+    margin-top: 25%;
     display: inline-block;
 }
 #aboutmecopy {
@@ -652,8 +652,9 @@ hr#trihang1hr {
     width: 50px;
     height: 50px;
     opacity: .5;
-    margin-left: -5%;
-    margin-right: 15%;
+    margin-left: -15%;
+    margin-right: 25%;
+    float: right;
 }
 #icon:hover {
     opacity: .75;
