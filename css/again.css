@@ -1002,3 +1002,55 @@ and (max-device-width : 480px) {
         background-color: #353535;
     }
 }
+
+#revit {
+    background-color: #F0F0F0;
+}
+#introcopy {
+    font-family: Economica;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 6%;
+}
+#imagecarousel {
+    z-index: 5;
+}
+#revitimages {
+    width: 85%;
+    margin-left: 7.5%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+#arrowright {
+    width: 5%;
+    opacity: .5;
+    z-index: 1;
+    float: right;
+    margin-right: -5%;
+    margin-top: -35%;
+}
+#arrowleft {
+    width: 5%;
+    opacity: .5;
+    z-index: 2;
+    margin-left: -5%;
+    margin-top: -35%;
+}
+#arrowleft:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#arrowright:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#slidenumbers {
+    font-family: Economica;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
