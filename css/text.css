@@ -577,7 +577,16 @@ hr#trihang1hr {
     text-align: left;
     margin-bottom: -47px;
     font-size: 30px;
-    margin-top: 15%;
+    margin-top: 12%;
+}
+#hello1 {
+    font-family: Economica;
+    color: black;
+    text-align: left;
+    margin-bottom: -47px;
+    font-size: 32px;
+    margin-top: 2.5%;
+    margin-left: 20%;
 }
 #introcopy {
     font-family: Economica;
@@ -588,6 +597,15 @@ hr#trihang1hr {
     padding-left: 25px;
     padding-right: 25px;
     margin-right: 12.5%;
+}
+#introcopy1 {
+    font-family: Economica;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    padding-top: 4%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 #copyright {
     font-family: Economica;
@@ -609,8 +627,8 @@ hr#trihang1hr {
 }
 #right {
     float: right;
-    width: 20%;
-    margin-top: 27.5%;
+    width: 15%;
+    margin-top: 12.5%;
     display: inline-block;
 }
 #aboutmecopy {
@@ -620,7 +638,7 @@ hr#trihang1hr {
     text-align: left;
     padding-left: 12.5%;
     padding-right: 25px;
-    margin-top: -12.5%;
+    margin-top: -22.5%;
 }
 #me {
     width: 50%;
@@ -628,14 +646,12 @@ hr#trihang1hr {
     bottom: 0;
     z-index: -100;
     display: inline-block;
-    margin-left: -5%;
 }
 #icon {
     width: 50px;
     height: 50px;
     opacity: .5;
-    margin-left: -5%;
-    margin-right: 15%;
+    margin: 25px;
 }
 #icon:hover {
     opacity: .75;
@@ -655,12 +671,17 @@ hr#trihang1hr {
     width: 65%;
     margin-left: 17.5%;
     margin-right: 17.5%;
-    margin-top: 7.5%;
+    margin-top: 5%;
+    /*margin-bottom: 5%;*/
     box-shadow:  0px 5px 5px #888888;
 }
 #resumebg {
     background-color: #F2F2F2;
 }
+/*#greybg {*/
+/*    background-color: #F2F2F2;*/
+/*    padding: 2.5%;*/
+/*}*/
 #coverimg {
    width: 75%;
    margin-left: 12.5%;
@@ -738,76 +759,19 @@ hr#trihang1hr {
     margin-top: 1%;
     cursor: pointer;
 }
-
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    #introcopy {
-        font-size: 14px;
-        padding-left: 25px;
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-bottom: .5%;
-    }
     #hello {
-        margin-top: 16%;
-        margin-bottom: -2%;
-        margin-left: 12.5%;
+        font-family: Economica;
+        color: black;
+        text-align: left;
+        margin-bottom: -25px;
+        font-size: 30px;
+        margin-top: 12%;
     }
     #name {
-        display: none;
-    }
-    #workw {
-        margin-left: -3%;
-        margin-top: 1%;
-        margin-right: -1%;
-    }
-    #aboutmew {
-        margin-top: 1%;
-    }
-    #lukew {
-        margin-left: -2%;
-    }
-    #resumebtnw {
-        margin-top: 1%;
-        margin-left: -2%;
-    }
-    #whitenav1 {
-    background-color: white;
-    border-bottom: solid;
-    border-bottom-color: #C0C0C0;
-    border-bottom-width: .5px;
-    position: fixed;
-    height: 50px;
-    width: 100%;
-    }
-    #resumebg {
-        padding-bottom: 75%;
-    }
-    #resume {
-        margin-top: 15%;
-        margin-left: 2.5%;
-        width: 95%;
-        margin-right: 2.5%;
-    }
-    #download {
-        margin: auto;
-        margin-left: 40%;
-    }
-    #aboutmecopy {
-        font-size: 14px;
-        margin-left: -5%;
-    }
-    #left {
-        width: 100%;
-        margin-top: 27.5%;
-    }
-    #right {
-        width: 100%;
-        margin-top: -7.5%;
-    }
-    #icon {
-        margin-left: 10%;
-        margin-right: 7.5%;
+        padding-bottom: 8%;
+        margin-top: 12%;
     }
 }
