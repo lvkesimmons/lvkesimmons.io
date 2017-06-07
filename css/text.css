@@ -670,21 +670,22 @@ hr#trihang1hr {
 #download:hover {
     color: black;
 }
+#noscroll {
+    height: 100%;
+    overflow: hidden;
+}
 #resume {
-    width: 65%;
-    margin-left: 17.5%;
-    margin-right: 17.5%;
-    margin-top: 5%;
-    /*margin-bottom: 5%;*/
-    box-shadow:  0px 5px 5px #888888;
+    width: 60%;
+    height: 90%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    /*box-shadow:  0px 5px 5px #888888;*/
 }
 #resumebg {
-    background-color: #F2F2F2;
+    background-color: #525659;
 }
-/*#greybg {*/
-/*    background-color: #F2F2F2;*/
-/*    padding: 2.5%;*/
-/*}*/
 #coverimg {
    width: 75%;
    margin-left: 12.5%;
