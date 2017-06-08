@@ -1003,6 +1003,16 @@ and (max-device-width : 480px) {
     }
 }
 
+#introcopy1 {
+    font-family: Economica;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 10%;
+}
+
 #revit {
     background-color: #F0F0F0;
 }
@@ -1053,4 +1063,26 @@ and (max-device-width : 480px) {
     font-size: 12px;
     color: black;
     text-align: center;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #arrowleft {
+        margin-left: 1%;
+        margin-top: -40%;
+    }
+    #arrowright {
+        margin-right: 1%;
+        margin-top: -40%;
+    }
+    #introcopy {
+    font-family: Economica;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 15%;
+}
 }
