@@ -47,10 +47,10 @@ img {
     position: relative;
 }
 #whitenav1 {
-    background-color: white;
-    border-bottom: solid;
-    border-bottom-color: #C0C0C0;
-    border-bottom-width: .5px;
+    background-color: rgba(245, 245, 245, 0);
+    /*border-bottom: solid;*/
+    /*border-bottom-color: #C0C0C0;*/
+    /*border-bottom-width: .5px;*/
     position: fixed;
     height: 62px;
     width: 100%;
@@ -585,7 +585,7 @@ hr#trihang1hr {
     text-align: left;
     margin-bottom: -47px;
     font-size: 32px;
-    margin-top: 2.5%;
+    margin-top: 5%;
     margin-left: 20%;
 }
 #introcopy {
@@ -679,7 +679,7 @@ hr#trihang1hr {
     height: 90%;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 4%;
+    /*margin-top: 2%;*/
     margin-bottom: 10%;
     /*box-shadow:  0px 5px 5px #888888;*/
 }

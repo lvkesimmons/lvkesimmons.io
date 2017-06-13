@@ -16,20 +16,20 @@ html, body {
 }
 
 #nav {
-    background-color: black;
-    border-bottom: solid;
-    border-bottom-color: #C0C0C0;
-    border-bottom-width: .5px;
+    background-color: rgba(245, 245, 245, 0);
+    /*border-bottom: solid;*/
+    /*border-bottom-color: #C0C0C0;*/
+    /*border-bottom-width: .5px;*/
     position: fixed;
     height: 62px;
     width: 100%;
     z-index: 100000;
 }
 #whitenav {
-    background-color: white;
-    border-bottom: solid;
-    border-bottom-color: #C0C0C0;
-    border-bottom-width: .5px;
+    background-color: rgba(245, 245, 245, 0);
+    /*border-bottom: solid;*/
+    /*border-bottom-color: #C0C0C0;*/
+    /*border-bottom-width: .5px;*/
     position: fixed;
     z-index: 100001;
     height: 62px;
@@ -512,9 +512,9 @@ and (max-device-width : 480px) {
 #titleblock {
     position: relative;
     margin-top: -25%;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    width: 67%;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
     z-index: 2;
 }
 
@@ -525,9 +525,9 @@ and (max-device-width : 480px) {
 }
 
 #margins {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    width: 67%;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
 }
 #naviproblem {
     width: 100%;
@@ -637,8 +637,8 @@ and (max-device-width : 480px) {
 }
 #solutioncopy {
     padding-top: 5%;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
+    margin-left: 19%;
+    margin-right: 19%;
     width: 67%;
     z-index: 106;
     position: relative;
@@ -660,23 +660,23 @@ and (max-device-width : 480px) {
 }
 
 #margins1 {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    width: 67%;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
     margin-top: 17.5%;
 }
 #margins3 {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    width: 67%;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
     margin-top: 25%;
     z-index: 105;
     position: relative;
 }
 #margins4 {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    width: 67%;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
     margin-top: 25%;
     z-index: 105;
     position: relative;
@@ -710,9 +710,9 @@ and (max-device-width : 480px) {
     margin-bottom: 2%;
 }
 #margins2 {
-    margin-left: 16.5%;
-    margin-right: 16.5%;
-    width: 67%;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
     margin-top: 4%;
     z-index: 10000;
     position: relative;
@@ -773,7 +773,7 @@ and (max-device-width : 480px) {
 }
 #skiagraphic {
     width: 100%;
-    margin-top: 7.25%;
+    margin-top: 4%;
     margin-bottom: 2%;
 }
 #skiaproblem {
@@ -892,8 +892,8 @@ and (max-device-width : 480px) {
 }
 #solutioncopy1 {
     padding-top: 7.5%;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
+    margin-left: 19%;
+    margin-right: 19%;
     width: 67%;
     z-index: 106;
     position: relative;
@@ -1021,9 +1021,9 @@ and (max-device-width : 480px) {
     font-size: 20px;
     color: black;
     text-align: left;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-    margin-top: 6%;
+    /*margin-left: 12.5%;*/
+    /*margin-right: 12.5%;*/
+    margin-top: 7.5%;
 }
 #imagecarousel {
     z-index: 5;
@@ -1085,4 +1085,25 @@ and (max-device-width : 480px) {
     margin-right: 12.5%;
     margin-top: 15%;
 }
+}
+#introcopy a {
+    font-family: Economica;
+    font-size: 20px;
+    color: black;
+}
+#introcopy a:hover {
+    font-family: Economica;
+    font-size: 20px;
+    color: #0B24FB;
+    cursor: pointer;
+    text-decoration: none;
+}
+#introcopy2 {
+    font-family: Economica;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    /*margin-left: 12.5%;*/
+    /*margin-right: 12.5%;*/
+    margin-top: 1%;
 }
