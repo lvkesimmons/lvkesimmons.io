@@ -1081,9 +1081,9 @@ and (max-device-width : 480px) {
     font-size: 20px;
     color: black;
     text-align: left;
-    margin-left: -10%;
-    margin-right: -10%;
-    margin-top: 25%;
+    margin-left: -17.5%;
+    margin-right: -20%;
+    margin-top: 27.5%;
 }
 }
 #introcopy a {
@@ -1214,8 +1214,8 @@ and (max-device-width : 480px) {
         font-size: 20px;
         color: black;
         text-align: left;
-        margin-left: -10%;
-        margin-right: -10%;
+        margin-left: -17.5%;
+        margin-right: -20%;
     }
     #fab1 {
         width: 85%;
