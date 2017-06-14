@@ -1040,14 +1040,14 @@ and (max-device-width : 480px) {
     opacity: .5;
     z-index: 1;
     float: right;
-    margin-right: -5%;
+    margin-right: 2%;
     margin-top: -35%;
 }
 #arrowleft {
     width: 5%;
     opacity: .5;
     z-index: 2;
-    margin-left: -5%;
+    margin-left: 2%;
     margin-top: -35%;
 }
 #arrowleft:hover {
@@ -1081,18 +1081,20 @@ and (max-device-width : 480px) {
     font-size: 20px;
     color: black;
     text-align: left;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-    margin-top: 15%;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 25%;
 }
 }
 #introcopy a {
     font-family: Economica;
+    font-weight: bold;
     font-size: 20px;
     color: black;
 }
 #introcopy a:hover {
     font-family: Economica;
+    font-weight: bold;
     font-size: 20px;
     color: #0B24FB;
     cursor: pointer;
@@ -1106,4 +1108,166 @@ and (max-device-width : 480px) {
     /*margin-left: 12.5%;*/
     /*margin-right: 12.5%;*/
     margin-top: 1%;
+}
+#arrowright1 {
+    width: 5%;
+    opacity: .5;
+    z-index: 1;
+    float: right;
+    margin-right: 2%;
+    margin-top: -31.5%;
+}
+#arrowleft1 {
+    width: 5%;
+    opacity: .5;
+    z-index: 2;
+    margin-left: 2%;
+    margin-top: -31.5%;
+}
+#arrowleft1:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#arrowright1:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#arrowright2 {
+    width: 5%;
+    opacity: .5;
+    z-index: 1;
+    float: right;
+    margin-right: 2%;
+    margin-top: -37.5%;
+}
+#arrowright2:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#arrowleft2 {
+    width: 5%;
+    opacity: .5;
+    z-index: 2;
+    margin-left: 2%;
+    margin-top: -37.5%;
+}
+#arrowleft2:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#diagram1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -1%;
+}
+#diagram2 {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+#diagram3 {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#diagram4 {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#renders {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+#fab1 {
+    /*float: left;*/
+    /*width: 45%;*/
+    /*margin-left: 3.33%;*/
+    /*margin-right: 1.66%;*/
+    width: 57.5%;
+    margin-left: 21.25%;
+    margin-right: 21.25%;
+    margin-bottom: 2%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+#fab2 {
+    /*float: right;*/
+    /*width: 45%;*/
+    /*margin-left: 1.66%;*/
+    /*margin-right: 3.33%;*/
+    width: 57.5%;
+    margin-left: 21.25%;
+    margin-right: 21.25%;
+    margin-bottom: 2%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #introcopy2 {
+        font-family: Economica;
+        font-size: 20px;
+        color: black;
+        text-align: left;
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+    #fab1 {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 5%;
+    }
+    #fab2 {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+    #diagram1 {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 2.5%;
+    }
+    #diagram2 {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 2.5%;
+    }
+    #diagram3 {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 2.5%;
+    }
+    #diagram4 {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 2.5%;
+    }
+    #renders {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 2.5%;
+    }
+    #arrowleft1 {
+        margin-top: -35%;
+    }
+    #arrowright1 {
+        margin-top: -35%;
+    }
+    #arrowleft2 {
+        margin-top: -40%;
+    }
+    #arrowright2 {
+        margin-top: -40%;
+    }
 }
