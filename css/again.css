@@ -36,6 +36,13 @@ html, body {
     width: 100%;
 }
 
+#iframe {
+    background-color: rgba(245, 245, 245, 0);
+}
+    
+#fp-iframe  {
+    position: relative;
+}
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
