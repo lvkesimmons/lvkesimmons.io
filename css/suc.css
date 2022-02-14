@@ -51,8 +51,8 @@ html, body {
     text-decoration: none;
 }
 #square {
-    width: 30vw;
-    height: 30vw;
+    width: 100%;
+    height: 100%;
     margin: auto;
     margin-top: 12.5vw;
     background-image: linear-gradient(135deg, #006DFF 0%, #011653 100%);
