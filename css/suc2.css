@@ -15,11 +15,11 @@ html, body {
     overflow-x: hidden;
     height: 100%;
     overflow-y: hidden;
-    background: url(/images/background.png) no-repeat center center fixed; 
+    /*background: url(/images/background.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 #whitenav1 {
     background-color: rgba(245, 245, 245, 0);
@@ -31,7 +31,7 @@ html, body {
     font-family: Voltaire;
     font-size: 33px;
     text-align: left;
-    color: gray;
+    color: #C0C0C0;
     display: inline-block;
     padding-left: 5%;
     margin-top: .6%;
@@ -96,7 +96,7 @@ footer {
     font-family: Voltaire;
     font-size: 15px;
     float: left;
-    color: #C0C0C0;
+    color: gray;
     padding: 10px;
     padding-left: 5%;
 }
@@ -108,7 +108,7 @@ footer {
     font-family: Voltaire;
     font-size: 15px;
     float: right;
-    color: #C0C0C0;
+    color: gray;
     padding: 10px;
     padding-right: 5%;
 }
