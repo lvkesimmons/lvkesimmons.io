@@ -71,8 +71,8 @@ html, body {
 }
 #backimg {
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 #middle {
@@ -88,8 +88,8 @@ html, body {
 }
 #middleimg {
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 #front {
@@ -105,8 +105,8 @@ html, body {
 }
 #frontimg {
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 footer {
