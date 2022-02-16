@@ -59,31 +59,55 @@ html, body {
     text-decoration: none;
 }
 #back {
-    width: 50vw;
-    height: 50vw;
     transform-style: preserve-3d;
     transform: perspective(1000px);
     position: absolute;
+    /*
     top: 50%;
     left: 50%;
-}
-#middle {
     width: 50vw;
     height: 50vw;
+    */
+}
+#backimg {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#middle {
     position: absolute;
-    top: 50%;
-    left: 50%;
     transform-style: preserve-3d;
     transform: translateZ(250px) translateY(-50%) translateX(-50%);
+    /*
+    top: 50%;
+    left: 50%;
+    width: 50vw;
+    height: 50vw;
+    */
+}
+#middleimg {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 #front {
-    width: 50%;
-    height: 50%;
     position: absolute;
-    top: 50%;
-    left: 50%;
     transform-style: preserve-3d;
     transform: translateZ(250px) translateY(-50%) translateX(-50%);
+    /*
+    top: 50%;
+    left: 50%;
+    width: 50vw;
+    height: 50vw;
+    */
+}
+#frontimg {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 footer {
     bottom: 0;
