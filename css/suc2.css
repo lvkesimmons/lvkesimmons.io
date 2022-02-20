@@ -16,12 +16,14 @@ html, body {
     height: 100%;
     overflow-y: hidden;
 }
-#room {
+#rooming {
     max-width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: -100000;
+    position: relative;
 }
 #whitenav1 {
     background-color: rgba(245, 245, 245, 0);
@@ -136,4 +138,9 @@ footer {
 #date:hover {
     cursor: default;
     text-decoration: none;
+}
+#book {
+    border: 0px;
+    margin-top: 62px;
+
 }
