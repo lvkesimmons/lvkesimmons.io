@@ -16,15 +16,6 @@ html, body {
     height: 100%;
     overflow-y: hidden;
 }
-#rooming {
-    max-width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: -100000;
-    position: relative;
-}
 #whitenav1 {
     background-color: rgba(245, 245, 245, 0);
     position: fixed;
@@ -59,56 +50,40 @@ html, body {
     cursor: default;
     text-decoration: none;
 }
-#back {
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-    position: absolute;
-    /*
-    top: 50%;
-    left: 50%;
-    width: 50vw;
-    height: 50vw;
-    */
+
+/* Tilt */
+
+#roomimg {
+    max-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -100000;
+    position: relative;
 }
 #backimg {
     margin: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
     position: relative;
-}
-#middle {
-    position: absolute;
     transform-style: preserve-3d;
-    transform: translateZ(250px) translateY(-50%) translateX(-50%);
-    /*
-    top: 50%;
-    left: 50%;
-    width: 50vw;
-    height: 50vw;
-    */
+    transform: perspective(1000px);
 }
 #middleimg {
     margin: 0;
     width: 50%;
     height: 50%;
     position: relative;
-}
-#front {
-    position: absolute;
     transform-style: preserve-3d;
     transform: translateZ(250px) translateY(-50%) translateX(-50%);
-    /*
-    top: 50%;
-    left: 50%;
-    width: 50vw;
-    height: 50vw;
-    */
 }
 #frontimg {
     margin: 0;
     width: 50%;
     height: 50%;
     position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(250px) translateY(-50%) translateX(-50%);
 }
 footer {
     bottom: 0;
@@ -139,8 +114,18 @@ footer {
     cursor: default;
     text-decoration: none;
 }
+
+
+/* Portfolio Page */
+
 #book {
     border: 0px;
     margin-top: 62px;
 
+}
+#orb {
+    display: inline-block;
+    padding-left: 5%;
+    margin-top: .6%;
+    margin-bottom: .5%;
 }
