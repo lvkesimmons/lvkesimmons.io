@@ -59,7 +59,7 @@ footer {
     font-family: Voltaire;
     font-size: 15px;
     float: left;
-    color: rgba(0, 0, 0, 50);
+    color: #949598;
     padding: 10px;
     padding-left: 5%;
 }
@@ -71,7 +71,7 @@ footer {
     font-family: Voltaire;
     font-size: 15px;
     float: right;
-    color: rgba(0, 0, 0, 50);
+    color: #949598;
     padding: 10px;
     padding-right: 5%;
 }
