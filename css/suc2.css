@@ -26,7 +26,7 @@ html, body {
     font-family: Voltaire;
     font-size: 33px;
     text-align: left;
-    color: gray;
+    color: black;
     display: inline-block;
     padding-left: 5%;
     margin-top: .6%;
@@ -59,7 +59,7 @@ footer {
     font-family: Voltaire;
     font-size: 15px;
     float: left;
-    color: #C0C0C0;
+    color: rgba(0, 0, 0, 50);
     padding: 10px;
     padding-left: 5%;
 }
@@ -71,7 +71,7 @@ footer {
     font-family: Voltaire;
     font-size: 15px;
     float: right;
-    color: #C0C0C0;
+    color: rgba(0, 0, 0, 50);
     padding: 10px;
     padding-right: 5%;
 }
