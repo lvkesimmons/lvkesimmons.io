@@ -117,8 +117,8 @@ footer {
 /* ----------------Portfolio Page---------------- */
 #orb {
     display: inline-block;
-    padding-left: 5%;
-    margin-top: .6%;
+    padding-left: .5%;
+    margin-top: .5%;
     margin-bottom: .5%;
-    height: 50px;
+    height: 100px;
 }
