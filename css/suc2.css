@@ -46,6 +46,14 @@ html, body {
     margin-bottom: .5%;
     padding-right: 5%;
 }
+#barricade {
+    font-size: 33px;
+    float: right;
+    padding: 10px;
+    margin-top: .8%;
+    margin-bottom: .5%;
+    padding-right: 5%;
+}
 #suc:hover {
     cursor: default;
     text-decoration: none;
