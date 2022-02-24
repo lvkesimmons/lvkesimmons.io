@@ -132,6 +132,8 @@ footer {
     height: 100%;
     position: absolute;
     margin: 0;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 #middle {
     width: 100%;
