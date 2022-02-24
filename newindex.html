@@ -21,8 +21,8 @@
             <p id="lukew">LUKE SIMMONS</p>
             <p id="suc">SITE UNDER CONSTRUCTION</p>
         </nav>
-        <div id="tilt" data-tilt="">
-            <div id="back">
+        <div>
+            <div id="back" data-tilt="">
                 <img id="backimg" src="images/back.png" data-tilt></img>
                 <div id="middle">
                     <img id="middleimg" src="images/orb.png" data-tilt></img>
@@ -42,7 +42,7 @@
 
         <script type="text/javascript" src="js/vanilla-tilt.js"></script>
         <script type="text/javascript">
-            VanillaTilt.init(document.querySelector(".tilt"), {
+            VanillaTilt.init(document.querySelector(".back"), {
                 reverse:                false,  // reverse the tilt direction
                 max:                    35,     // max tilt rotation (degrees)
                 startX:                 0,      // the starting tilt on the X axis, in degrees.
@@ -67,7 +67,7 @@
             });
             
             //It also supports NodeList
-            VanillaTilt.init(document.querySelectorAll(".tilt"));
+            VanillaTilt.init(document.querySelectorAll(".back"));
         </script>
 
     </body>
