@@ -103,7 +103,7 @@ footer {
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    transform: translateZ(250px) translateY(-50%) translateX(-50%);
+    transform: translateZ(250px);
 }
 #frontimg {
     margin: 0;
@@ -111,7 +111,7 @@ footer {
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    transform: translateZ(250px) translateY(-50%) translateX(-50%);
+    transform: translateZ(250px);
 }
 #room {
     width: 100%;
@@ -131,7 +131,7 @@ footer {
     position: absolute;
     margin: 0;
     transform-style: preserve-3d;
-    transform: translateZ(250px) translateY(-50%) translateX(-50%);
+    transform: translateZ(250px);
 }
 #front {
     width: 100%;
@@ -139,7 +139,7 @@ footer {
     position: absolute;
     margin: 0;
     transform-style: preserve-3d;
-    transform: translateZ(250px) translateY(-50%) translateX(-50%);
+    transform: translateZ(250px);
 }
 
 
