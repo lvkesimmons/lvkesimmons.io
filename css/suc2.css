@@ -97,6 +97,7 @@ footer {
     transform-style: preserve-3d;
     transform: perspective(1000px);
     background-image: url("images/back.png");
+    background-size: cover;
 }
 #room {
     width: 100%;
@@ -106,6 +107,7 @@ footer {
     position: relative;
     background-size: cover;
     background-image: url("images/background.png");
+    background-size: cover;
 }
 #middle {
     width: 100%;
@@ -114,6 +116,7 @@ footer {
     position: absolute;
     transform: translateZ(50px);
     background-image: url("images/orb.png");
+    background-size: cover;
 }
 #front {
     width: 100%;
@@ -122,6 +125,7 @@ footer {
     transform: translateZ(100px);
     position: absolute;
     background-image: url("images/front.png");
+    background-size: cover;
 }
 
 
