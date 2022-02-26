@@ -26,7 +26,7 @@ html, body {
     font-family: Voltaire;
     font-size: 33px;
     text-align: left;
-    color: black;
+    color: #262626;
     display: inline-block;
     padding-left: 5%;
     margin-top: .6%;
@@ -49,8 +49,7 @@ html, body {
 #barricade {
     font-size: 33px;
     float: right;
-    padding: 10px;
-    margin-top: .8%;
+    margin-top: 0.5%;
     margin-bottom: .5%;
     padding-right: 5%;
 }
