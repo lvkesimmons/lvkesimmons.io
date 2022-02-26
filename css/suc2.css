@@ -97,8 +97,9 @@ footer {
     transform-style: preserve-3d;
     transform: perspective(1000px);
     background-image: url("images/back.png");
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #room {
     width: 100%;
@@ -110,6 +111,7 @@ footer {
     background-image: url("images/background.png");
     background-size: 100% 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #middle {
     width: 100%;
@@ -118,8 +120,9 @@ footer {
     position: absolute;
     transform: translateZ(50px);
     background-image: url("images/orb.png");
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #front {
     width: 100%;
@@ -128,8 +131,9 @@ footer {
     transform: translateZ(100px);
     position: absolute;
     background-image: url("images/front.png");
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 
