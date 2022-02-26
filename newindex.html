@@ -24,7 +24,7 @@
             <p id="barricade">&#128679</p>
         </nav>
         <div>
-            <div>
+            <div id="tilt">
                 <img id="backimg" src="images/back.png" data-tilt data-tilt-full-page-listening></img>
                 <div>
                     <img id="middleimg" src="images/orb.png"></img>
@@ -44,7 +44,7 @@
 
         <script type="text/javascript" src="js/vanilla-tilt.js"></script>
         <script type="text/javascript">
-            VanillaTilt.init(document.querySelector(".backimg"), {
+            VanillaTilt.init(document.querySelector(".tilt"), {
                 reverse:                false,  // reverse the tilt direction
                 max:                    35,     // max tilt rotation (degrees)
                 startX:                 0,      // the starting tilt on the X axis, in degrees.
@@ -69,7 +69,7 @@
             });
             
             //It also supports NodeList
-            VanillaTilt.init(document.querySelectorAll(".back"));
+            VanillaTilt.init(document.querySelectorAll(".tilt"));
         </script>
 
     </body>
