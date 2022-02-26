@@ -119,16 +119,19 @@ footer {
     width: 100%;
     height: 100%;
     position: absolute;
-    transform: translateZ(50px);
 }
 #room {
     width: 100%;
     height: 100%;
 }
 #middle {
+    width: 100%;
+    height: 100%;
     transform: translateZ(50px);
 }
 #front {
+    width: 100%;
+    height: 100%;
     transform: translateZ(100px);
 }
 
